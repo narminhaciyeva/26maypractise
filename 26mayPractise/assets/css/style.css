@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+ width: 100%;
+margin: 0 auto;
+}
+.col-md-6-colors{
+background-color: rgb(175, 204, 228);
+width: 50%;
+height: 700px;
+}
+.col-md-6-image{
+    background-image: url(https://preview.colorlib.com/theme/furnish/images/bg_2.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    right:0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    
+}
+.step1{
+    position: absolute;
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+ul.list li {
+ display: inline-block;
+
+}
+ul.list li a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+ul.list li a:hover{
+    color: white;
+}
+
+.descrip{
+    margin-top: 40%;
+    padding-left:70px;
+}
+.descrip h1{
+    color: rgb(30, 30, 68);
+}
+.descrip p{
+    color: white;
+}
+.descrip button{
+    margin: 30px;
+   background-color: white;
+   width: 100px;
+   height: 50px;
+border-radius: 20px;
+border-color: transparent;
+}
+.descrip button a{
+    text-decoration: none;
+}
+
+.card-1 i,.card-2 i,.card-3 i, .card-4 i{
+    font-size: 40px;
+    background-color: rgb(240, 168, 168);
+    border-radius: 50%;
+
+}
+.cards{
+    margin: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+.card-1{
+    background-color: rgb(240, 162, 133);
+}
+.card-2{
+    background-color:rgb(188, 204, 235);
+}
+.card-3{
+    background-color: rgb(219, 215, 155);
+}
+.card-4{
+    background-color: rgb(213, 172, 233);
+}
+.step2{
+background-image: url(https://preview.colorlib.com/theme/furnish/images/bg_4.jpg.webp) ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height:700px;
+}
+.desc2{ 
+   padding-left: 50%;
+    padding-top: 10%;
+
+}
+.desc2 p{
+    color: rgb(184, 174, 174);
+}
+.desc2 h1{
+    color: rgb(30, 30, 68);
+}
+.desc2 button{
+    margin: 30px;
+    background-color: rgb(231, 143, 60);
+    width: 100px;
+    height: 100px;
+ border-radius:50%;
+ border-color: transparent;
+}
+.desc2 i{
+    font-size: 30px;
+    color: white;
+}
+.desc2 a{
+    text-decoration: none;
+    color: rgb(231, 143, 60); ;
+}
+.step3{
+   text-align: center;
+   margin: 30px;
+}
+.card i{
+    color: white;
+    background-color: chocolate;
+width: 40px;
+text-align: center;
+height: 40px;
+border-radius: 50%;
+padding-top: 10px;
+}
+.card-body img{
+    border-radius: 50%;
+}
+.desc3{
+    display: inline-block;
+}
+.cards2{
+   display:flex;
+margin-top: 30px;
+justify-content: space-around;
+justify-content: center;
+gap: 50px;
+}
+.step4-desc{
+    margin: 40px;
+    text-align: center;
+}
+/* .row.g-0{
+    display: inline-block;
+}
+.row.g-0{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.list2 a{
+display: flex;
+
+    text-decoration: none;
+    color: black;
+}
+.list2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.list2 li{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .images{
+    background-image: url(https://preview.colorlib.com/theme/furnish/images/bg_2.jpg.webp);
+    width: 60%;
+    height: 100vh;
+    min-height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+       
+} */
